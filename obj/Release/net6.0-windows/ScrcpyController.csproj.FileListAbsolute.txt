@@ -1,0 +1,119 @@
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.exe
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.deps.json
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.runtimeconfig.json
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.dll
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.pdb
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfo.cs
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.CopyComplete
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.dll
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\refint\ScrcpyController.dll
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.pdb
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
+C:\Users\PC\Desktop\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ref\ScrcpyController.dll
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.exe
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.deps.json
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.runtimeconfig.json
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.dll
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.pdb
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.AssemblyReference.cache
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.GeneratedMSBuildEditorConfig.editorconfig
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfoInputs.cache
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfo.cs
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.CoreCompileInputs.cache
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.CopyComplete
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.dll
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\refint\ScrcpyController.dll
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.pdb
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
+D:\EaseUS_VideoDownloader\New folder\scrcpy-win64-v3.3.4\ScrcpyController\obj\Release\net6.0-windows\ref\ScrcpyController.dll
+C:\Users\PC\Desktop\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.exe
+C:\Users\PC\Desktop\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.deps.json
+C:\Users\PC\Desktop\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.runtimeconfig.json
+C:\Users\PC\Desktop\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.dll
+C:\Users\PC\Desktop\ScrcpyController\bin\Release\net6.0-windows\ScrcpyController.pdb
+C:\Users\PC\Desktop\ScrcpyController\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfo.cs
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.csproj.CopyComplete
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.dll
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\refint\ScrcpyController.dll
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.pdb
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
+C:\Users\PC\Desktop\ScrcpyController\obj\Release\net6.0-windows\ref\ScrcpyController.dll
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.exe
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.deps.json
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.runtimeconfig.json
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.dll
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.pdb
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.AssemblyReference.cache
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.GeneratedMSBuildEditorConfig.editorconfig
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfoInputs.cache
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfo.cs
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.CoreCompileInputs.cache
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.CopyComplete
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.dll
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\refint\ScrcpyController.dll
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.pdb
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
+D:\mấy cái app để đây\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ref\ScrcpyController.dll
+D:\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.exe
+D:\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.deps.json
+D:\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.runtimeconfig.json
+D:\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.dll
+D:\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.pdb
+D:\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.AssemblyReference.cache
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.GeneratedMSBuildEditorConfig.editorconfig
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfoInputs.cache
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfo.cs
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.CoreCompileInputs.cache
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyCo.76C671E7.Up2Date
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.dll
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\refint\ScrcpyController.dll
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.pdb
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
+D:\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ref\ScrcpyController.dll
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.exe
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.deps.json
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.runtimeconfig.json
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.dll
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.pdb
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.AssemblyReference.cache
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfoInputs.cache
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfo.cs
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.CoreCompileInputs.cache
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyCo.76C671E7.Up2Date
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.dll
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\refint\ScrcpyController.dll
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.pdb
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
+D:\New folder\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ref\ScrcpyController.dll
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.exe
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.deps.json
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.runtimeconfig.json
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.dll
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\ScrcpyController.pdb
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.AssemblyReference.cache
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfoInputs.cache
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.AssemblyInfo.cs
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.csproj.CoreCompileInputs.cache
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyCo.76C671E7.Up2Date
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.dll
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\refint\ScrcpyController.dll
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.pdb
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ref\ScrcpyController.dll

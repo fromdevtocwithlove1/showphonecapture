@@ -1,13 +1,3 @@
-# Build results
-[Dd]ebug/
-[Rr]elease/
-x64/
-x86/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
-
 # Visual Studio cache/options
 .vs/
 .idea/
@@ -17,13 +7,6 @@ x86/
 
 # Rider
 *.sln.iml
-
-# Build results
-*.dll
-*.exe
-*.pdb
-*.mdf
-*.ldf
 
 # User-specific files
 *.rsuser
