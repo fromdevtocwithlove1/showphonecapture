@@ -117,3 +117,4 @@ D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\ne
 D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.pdb
 D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.genruntimeconfig.cache
 D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ref\ScrcpyController.dll
+D:\Data cũ\myproject\showphonecapture-main\showphonecapture-main\obj\Release\net6.0-windows\ScrcpyController.sourcelink.json

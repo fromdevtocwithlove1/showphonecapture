@@ -24,6 +24,10 @@ namespace ScrcpyController
             this.lblConnectionHint = new System.Windows.Forms.Label();
             this.txtDeviceIP = new System.Windows.Forms.TextBox();
             this.lblDeviceIP = new System.Windows.Forms.Label();
+            this.txtPairEndpoint = new System.Windows.Forms.TextBox();
+            this.lblPairEndpoint = new System.Windows.Forms.Label();
+            this.txtPairCode = new System.Windows.Forms.TextBox();
+            this.lblPairCode = new System.Windows.Forms.Label();
             this.chkTurnOffScreen = new System.Windows.Forms.CheckBox();
             this.chk720p = new System.Windows.Forms.CheckBox();
             this.btnConnect = new System.Windows.Forms.Button();
@@ -32,6 +36,7 @@ namespace ScrcpyController
             this.btnCheckDevices = new System.Windows.Forms.Button();
             this.btnPushFile = new System.Windows.Forms.Button();
             this.btnConnectUSB = new System.Windows.Forms.Button();
+            this.btnPair = new System.Windows.Forms.Button();
             this.historyPanel = new System.Windows.Forms.Panel();
             this.lstIPHistory = new System.Windows.Forms.ListBox();
             this.lblHistoryHint = new System.Windows.Forms.Label();
@@ -85,6 +90,10 @@ namespace ScrcpyController
             this.connectionPanel.Controls.Add(this.lblConnectionHint);
             this.connectionPanel.Controls.Add(this.txtDeviceIP);
             this.connectionPanel.Controls.Add(this.lblDeviceIP);
+            this.connectionPanel.Controls.Add(this.txtPairEndpoint);
+            this.connectionPanel.Controls.Add(this.lblPairEndpoint);
+            this.connectionPanel.Controls.Add(this.txtPairCode);
+            this.connectionPanel.Controls.Add(this.lblPairCode);
             this.connectionPanel.Controls.Add(this.chkTurnOffScreen);
             this.connectionPanel.Controls.Add(this.chk720p);
             this.connectionPanel.Controls.Add(this.btnConnect);
@@ -93,9 +102,10 @@ namespace ScrcpyController
             this.connectionPanel.Controls.Add(this.btnCheckDevices);
             this.connectionPanel.Controls.Add(this.btnPushFile);
             this.connectionPanel.Controls.Add(this.btnConnectUSB);
+            this.connectionPanel.Controls.Add(this.btnPair);
             this.connectionPanel.Location = new System.Drawing.Point(20, 130);
             this.connectionPanel.Name = "connectionPanel";
-            this.connectionPanel.Size = new System.Drawing.Size(450, 308);
+            this.connectionPanel.Size = new System.Drawing.Size(450, 442);
             this.connectionPanel.TabIndex = 15;
             // 
             // lblConnectionHint
@@ -130,7 +140,52 @@ namespace ScrcpyController
             this.lblDeviceIP.Name = "lblDeviceIP";
             this.lblDeviceIP.Size = new System.Drawing.Size(66, 19);
             this.lblDeviceIP.TabIndex = 1;
-            this.lblDeviceIP.Text = "IP thiết bị";
+            this.lblDeviceIP.Text = "IP hoặc IP:cổng";
+            // 
+            // lblPairEndpoint
+            // 
+            this.lblPairEndpoint.AutoSize = true;
+            this.lblPairEndpoint.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.lblPairEndpoint.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.lblPairEndpoint.Location = new System.Drawing.Point(24, 96);
+            this.lblPairEndpoint.Name = "lblPairEndpoint";
+            this.lblPairEndpoint.Size = new System.Drawing.Size(73, 19);
+            this.lblPairEndpoint.TabIndex = 18;
+            this.lblPairEndpoint.Text = "Pair IP:cổng";
+            // 
+            // txtPairEndpoint
+            // 
+            this.txtPairEndpoint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.txtPairEndpoint.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPairEndpoint.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.txtPairEndpoint.Location = new System.Drawing.Point(104, 92);
+            this.txtPairEndpoint.Name = "txtPairEndpoint";
+            this.txtPairEndpoint.Size = new System.Drawing.Size(165, 27);
+            this.txtPairEndpoint.TabIndex = 19;
+            this.txtPairEndpoint.PlaceholderText = "192.168.1.100:37123";
+            // 
+            // lblPairCode
+            // 
+            this.lblPairCode.AutoSize = true;
+            this.lblPairCode.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.lblPairCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(68)))));
+            this.lblPairCode.Location = new System.Drawing.Point(280, 96);
+            this.lblPairCode.Name = "lblPairCode";
+            this.lblPairCode.Size = new System.Drawing.Size(34, 19);
+            this.lblPairCode.TabIndex = 20;
+            this.lblPairCode.Text = "Mã";
+            // 
+            // txtPairCode
+            // 
+            this.txtPairCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.txtPairCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPairCode.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.txtPairCode.Location = new System.Drawing.Point(319, 92);
+            this.txtPairCode.Name = "txtPairCode";
+            this.txtPairCode.Size = new System.Drawing.Size(93, 27);
+            this.txtPairCode.TabIndex = 21;
+            this.txtPairCode.MaxLength = 12;
+            this.txtPairCode.PasswordChar = '•';
             // 
             // chkTurnOffScreen
             // 
@@ -138,7 +193,7 @@ namespace ScrcpyController
             this.chkTurnOffScreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkTurnOffScreen.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.chkTurnOffScreen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(56)))), ((int)(((byte)(74)))));
-            this.chkTurnOffScreen.Location = new System.Drawing.Point(28, 98);
+            this.chkTurnOffScreen.Location = new System.Drawing.Point(28, 130);
             this.chkTurnOffScreen.Name = "chkTurnOffScreen";
             this.chkTurnOffScreen.Size = new System.Drawing.Size(180, 23);
             this.chkTurnOffScreen.TabIndex = 2;
@@ -151,7 +206,7 @@ namespace ScrcpyController
             this.chk720p.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chk720p.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.chk720p.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(56)))), ((int)(((byte)(74)))));
-            this.chk720p.Location = new System.Drawing.Point(240, 98);
+            this.chk720p.Location = new System.Drawing.Point(240, 130);
             this.chk720p.Name = "chk720p";
             this.chk720p.Size = new System.Drawing.Size(133, 23);
             this.chk720p.TabIndex = 3;
@@ -160,7 +215,7 @@ namespace ScrcpyController
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(28, 142);
+            this.btnConnect.Location = new System.Drawing.Point(28, 174);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(148, 50);
             this.btnConnect.TabIndex = 4;
@@ -169,7 +224,7 @@ namespace ScrcpyController
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(182, 142);
+            this.btnRefresh.Location = new System.Drawing.Point(182, 174);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(36, 50);
             this.btnRefresh.TabIndex = 17;
@@ -179,7 +234,7 @@ namespace ScrcpyController
             // 
             // btnSetupTcpip
             // 
-            this.btnSetupTcpip.Location = new System.Drawing.Point(226, 142);
+            this.btnSetupTcpip.Location = new System.Drawing.Point(226, 174);
             this.btnSetupTcpip.Name = "btnSetupTcpip";
             this.btnSetupTcpip.Size = new System.Drawing.Size(186, 50);
             this.btnSetupTcpip.TabIndex = 5;
@@ -188,7 +243,7 @@ namespace ScrcpyController
             // 
             // btnCheckDevices
             // 
-            this.btnCheckDevices.Location = new System.Drawing.Point(28, 208);
+            this.btnCheckDevices.Location = new System.Drawing.Point(28, 240);
             this.btnCheckDevices.Name = "btnCheckDevices";
             this.btnCheckDevices.Size = new System.Drawing.Size(186, 36);
             this.btnCheckDevices.TabIndex = 11;
@@ -197,7 +252,7 @@ namespace ScrcpyController
             // 
             // btnPushFile
             // 
-            this.btnPushFile.Location = new System.Drawing.Point(226, 208);
+            this.btnPushFile.Location = new System.Drawing.Point(226, 240);
             this.btnPushFile.Name = "btnPushFile";
             this.btnPushFile.Size = new System.Drawing.Size(186, 36);
             this.btnPushFile.TabIndex = 12;
@@ -206,12 +261,21 @@ namespace ScrcpyController
             // 
             // btnConnectUSB
             // 
-            this.btnConnectUSB.Location = new System.Drawing.Point(28, 260);
+            this.btnConnectUSB.Location = new System.Drawing.Point(28, 334);
             this.btnConnectUSB.Name = "btnConnectUSB";
             this.btnConnectUSB.Size = new System.Drawing.Size(384, 34);
             this.btnConnectUSB.TabIndex = 16;
             this.btnConnectUSB.Text = "⚡ Kết nối nhanh qua dây USB";
             this.btnConnectUSB.Click += new System.EventHandler(this.btnConnectUSB_Click);
+            // 
+            // btnPair
+            // 
+            this.btnPair.Location = new System.Drawing.Point(28, 376);
+            this.btnPair.Name = "btnPair";
+            this.btnPair.Size = new System.Drawing.Size(384, 34);
+            this.btnPair.TabIndex = 22;
+            this.btnPair.Text = "Ghép đôi ADB";
+            this.btnPair.Click += new System.EventHandler(this.btnPair_Click);
             // 
             // historyPanel
             // 
@@ -277,7 +341,7 @@ namespace ScrcpyController
             this.logPanel.Controls.Add(this.txtOutput);
             this.logPanel.Controls.Add(this.lblStatusHint);
             this.logPanel.Controls.Add(this.lblStatus);
-            this.logPanel.Location = new System.Drawing.Point(20, 456);
+            this.logPanel.Location = new System.Drawing.Point(20, 590);
             this.logPanel.Name = "logPanel";
             this.logPanel.Size = new System.Drawing.Size(740, 202);
             this.logPanel.TabIndex = 17;
@@ -323,7 +387,7 @@ namespace ScrcpyController
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(244)))), ((int)(((byte)(251)))));
-            this.ClientSize = new System.Drawing.Size(784, 679);
+            this.ClientSize = new System.Drawing.Size(784, 813);
             this.Controls.Add(this.logPanel);
             this.Controls.Add(this.historyPanel);
             this.Controls.Add(this.connectionPanel);
@@ -351,6 +415,7 @@ namespace ScrcpyController
             StyleButton(this.btnCheckDevices, System.Drawing.Color.FromArgb(245, 158, 11), System.Drawing.Color.White, 0);
             StyleButton(this.btnPushFile, System.Drawing.Color.FromArgb(168, 85, 247), System.Drawing.Color.White, 0);
             StyleButton(this.btnConnectUSB, System.Drawing.Color.FromArgb(34, 197, 94), System.Drawing.Color.White, 0);
+            StyleButton(this.btnPair, System.Drawing.Color.FromArgb(14, 165, 233), System.Drawing.Color.White, 0);
             StyleButton(this.btnClearHistory, System.Drawing.Color.FromArgb(226, 232, 240), System.Drawing.Color.FromArgb(51, 65, 85), 0);
         }
 
@@ -375,6 +440,10 @@ namespace ScrcpyController
         private System.Windows.Forms.Label lblConnectionHint;
         private System.Windows.Forms.TextBox txtDeviceIP;
         private System.Windows.Forms.Label lblDeviceIP;
+        private System.Windows.Forms.TextBox txtPairEndpoint;
+        private System.Windows.Forms.Label lblPairEndpoint;
+        private System.Windows.Forms.TextBox txtPairCode;
+        private System.Windows.Forms.Label lblPairCode;
         private System.Windows.Forms.CheckBox chkTurnOffScreen;
         private System.Windows.Forms.CheckBox chk720p;
         private System.Windows.Forms.Button btnConnect;
@@ -383,6 +452,7 @@ namespace ScrcpyController
         private System.Windows.Forms.Button btnCheckDevices;
         private System.Windows.Forms.Button btnPushFile;
         private System.Windows.Forms.Button btnConnectUSB;
+        private System.Windows.Forms.Button btnPair;
         private System.Windows.Forms.Panel historyPanel;
         private System.Windows.Forms.ListBox lstIPHistory;
         private System.Windows.Forms.Label lblHistoryHint;

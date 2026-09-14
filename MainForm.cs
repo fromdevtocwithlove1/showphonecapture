@@ -51,8 +51,10 @@ namespace ScrcpyController
             RoundControl(txtOutput, 14, Color.FromArgb(226, 232, 240));
             RoundControl(lstIPHistory, 14, Color.FromArgb(226, 232, 240));
             RoundControl(txtDeviceIP, 10, Color.FromArgb(203, 213, 225));
+            RoundControl(txtPairEndpoint, 10, Color.FromArgb(203, 213, 225));
+            RoundControl(txtPairCode, 10, Color.FromArgb(203, 213, 225));
 
-            foreach (var button in new[] { btnConnect, btnRefresh, btnSetupTcpip, btnCheckDevices, btnPushFile, btnClearHistory, btnConnectUSB })
+            foreach (var button in new[] { btnConnect, btnRefresh, btnSetupTcpip, btnCheckDevices, btnPushFile, btnClearHistory, btnConnectUSB, btnPair })
             {
                 RoundControl(button, 12, Color.Transparent);
             }
@@ -498,7 +500,15 @@ namespace ScrcpyController
                 return;
             }
 
-            LogOutput($"Đang kết nối tới {deviceIP}:5555...");
+            string connectionEndpoint = GetConnectionEndpoint(deviceIP);
+            if (connectionEndpoint == null)
+            {
+                MessageBox.Show("IP thiết bị phải có dạng IPv4 hoặc IPv4:cổng.", "Thông báo",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            LogOutput($"Đang kết nối tới {connectionEndpoint}...");
             btnConnect.Enabled = false;
             btnRefresh.Visible = true;
 
@@ -510,7 +520,7 @@ namespace ScrcpyController
             System.Threading.Tasks.Task.Run(() =>
             {
                 // Kết nối ADB
-                string connectResult = ExecuteCommand(adbPath, $"connect {deviceIP}:5555", token);
+                string connectResult = ExecuteCommand(adbPath, $"connect {connectionEndpoint}", token);
 
                 if (token.IsCancellationRequested)
                 {
@@ -528,7 +538,7 @@ namespace ScrcpyController
                 if (connected)
                 {
                     // Lấy tên thiết bị qua adb getprop
-                    deviceName = GetDeviceFriendlyName($"{deviceIP}:5555");
+                    deviceName = GetDeviceFriendlyName(connectionEndpoint);
                 }
 
                 Invoke(new Action(() =>
@@ -552,19 +562,63 @@ namespace ScrcpyController
                         }
 
                         // Lưu IP + tên thiết bị vào lịch sử
-                        AddToIPHistory(deviceIP, deviceName);
+                        AddToIPHistory(connectionEndpoint, deviceName);
 
                         // Khởi chạy scrcpy
-                        LaunchScrcpy(deviceIP);
+                        LaunchScrcpy(connectionEndpoint);
                     }
                     else
                     {
-                        LogOutput("✗ Không thể kết nối. Kiểm tra IP và đảm bảo đã chạy 'adb tcpip 5555'");
+                        LogOutput("✗ Không thể kết nối. Kiểm tra IP:cổng và Wireless debugging trên điện thoại.");
                         btnConnect.Enabled = true;
                         btnRefresh.Visible = false;
                     }
                 }));
             });
+        }
+
+        private void btnPair_Click(object sender, EventArgs e)
+        {
+            var validation = PairingInputValidator.Validate(txtPairEndpoint.Text, txtPairCode.Text);
+            if (!validation.IsValid)
+            {
+                MessageBox.Show(validation.ErrorMessage, "Thông tin ghép đôi không hợp lệ",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            btnPair.Enabled = false;
+            LogOutput($"Đang ghép đôi ADB tới {validation.Endpoint}...");
+
+            System.Threading.Tasks.Task.Run(() =>
+            {
+                string result = ExecuteCommand(adbPath, $"pair {validation.Endpoint} {validation.PairingCode}");
+                bool paired = result.IndexOf("successfully paired", StringComparison.OrdinalIgnoreCase) >= 0
+                              || result.IndexOf("already paired", StringComparison.OrdinalIgnoreCase) >= 0;
+
+                Invoke(new Action(() =>
+                {
+                    if (!string.IsNullOrWhiteSpace(result)) LogOutput(result.Trim());
+                    LogOutput(paired
+                        ? "✓ Ghép đôi ADB thành công. Hãy dùng cổng kết nối trong Wireless debugging để kết nối Scrcpy."
+                        : "✗ Ghép đôi thất bại. Kiểm tra IP:cổng, mã ghép đôi và đảm bảo điện thoại cùng mạng WiFi.");
+                    btnPair.Enabled = true;
+                }));
+            });
+        }
+
+        private static string? GetConnectionEndpoint(string input)
+        {
+            string trimmed = input.Trim();
+            if (trimmed.Contains(':'))
+            {
+                var result = PairingInputValidator.Validate(trimmed, "123456");
+                return result.IsValid ? result.Endpoint : null;
+            }
+
+            return PairingInputValidator.Validate($"{trimmed}:5555", "123456").IsValid
+                ? $"{trimmed}:5555"
+                : null;
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
@@ -588,7 +642,7 @@ namespace ScrcpyController
             LogOutput("Đang khởi động Scrcpy...");
             
             // Xây dựng tham số
-            string arguments = $"-s {deviceIP}:5555";
+            string arguments = $"-s {deviceIP}";
             
             if (chkTurnOffScreen.Checked)
             {
@@ -611,7 +665,7 @@ namespace ScrcpyController
                         FileName = scrcpyPath,
                         Arguments = arguments,
                         UseShellExecute = false,
-                        CreateNoWindow = false,
+                        CreateNoWindow = true,
                         WorkingDirectory = Path.GetDirectoryName(scrcpyPath) ?? AppDomain.CurrentDomain.BaseDirectory
                     }
                 };
@@ -711,7 +765,7 @@ namespace ScrcpyController
                         FileName = scrcpyPath,
                         Arguments = arguments,
                         UseShellExecute = false,
-                        CreateNoWindow = false,
+                        CreateNoWindow = true,
                         WorkingDirectory = Path.GetDirectoryName(scrcpyPath) ?? AppDomain.CurrentDomain.BaseDirectory
                     }
                 };

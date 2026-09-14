@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScrcpyController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adcf83d43c91dfd5e387c1a8f356b0f382fce04c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScrcpyController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScrcpyController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

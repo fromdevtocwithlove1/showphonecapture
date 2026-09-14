@@ -5,6 +5,7 @@
 ## Tính năng
 
 ✅ **ADB TCP/IP 5555** - Cài đặt kết nối ADB qua WiFi  
+✅ **ADB Wireless Pairing** - Ghép đôi Android 11+ bằng IP:cổng và mã ghép đôi  
 ✅ **Tắt màn hình** - Tùy chọn tắt màn hình thiết bị khi kết nối  
 ✅ **Độ phân giải 720p** - Tùy chọn giới hạn độ phân giải để tăng hiệu suất  
 ✅ **Lưu IP** - Tự động lưu lịch sử các IP đã kết nối  
@@ -57,6 +58,14 @@ cd bin\Release\net6.0-windows
 1. Đảm bảo thiết bị và máy tính cùng mạng WiFi
 2. Chọn IP từ lịch sử (double-click) hoặc nhập IP mới
 3. Chọn tùy chọn và nhấn "Kết nối Scrcpy"
+
+### Ghép đôi Android 11+:
+
+1. Trên điện thoại mở **Developer options > Wireless debugging**.
+2. Chọn **Pair device with pairing code** và giữ màn hình này mở.
+3. Nhập địa chỉ `IP:cổng` đang hiển thị vào ô **Pair IP:cổng**.
+4. Nhập mã 6 số vào ô **Mã**, sau đó nhấn **Ghép đôi ADB**.
+5. Sau khi ghép đôi thành công, nhập **IP:cổng kết nối** đang hiển thị trong Wireless debugging vào ô **IP hoặc IP:cổng**, rồi nhấn **Kết nối Scrcpy**. Nếu chỉ nhập IP, ứng dụng dùng cổng cũ `5555`. Tính năng ghép đôi không tự kết nối thiết bị.
 
 ## Cấu trúc thư mục
 
